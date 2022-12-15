@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="acrescentar" directorySegmentName="seg_0" id="BC6D851E-9A7E-44D2-486B-37DC78C2CC46">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:24:56 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<sourcePk>DFB2851F-40C2-177B-5654-2508F044A755</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5C3AD01B-B67A-B68A-FD7A-8ADA58F7A3D7</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42AC80D7-B4E9-EF9E-D1DC-E24DDFF537D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

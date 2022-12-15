@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="99A6288D-41D2-F714-AA5F-6C691C20127E" containerWithKeyObject="1035F9AB-18E8-35F9-B02B-8C0F85819D37" localFKIndex="AFFC2E2C-FFEA-2AE0-B4C1-D14F694864BB" name="T_FINTECH_INTERFACE_T_CARTEIRA_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>B426AED1-43AE-CBB8-58D1-9710A96F30E6</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<referredTableLongName>T_CARTEIRA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D65DADA1-A663-FDA1-2BBB-2F157C17551D</referredTableID>
+<keyObject>908F47E6-B8AC-3AA3-A17B-F59D3943774B</keyObject>
+<referredKeyID>908F47E6-B8AC-3AA3-A17B-F59D3943774B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vl_saldo,T_BANCO_nm_instituição_financeira,T_INVESTIMENTOS_nm_iinvestimentos,T_SALÁRIO_vl_salário,T_TRANSAÇÕES_nm_transações</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

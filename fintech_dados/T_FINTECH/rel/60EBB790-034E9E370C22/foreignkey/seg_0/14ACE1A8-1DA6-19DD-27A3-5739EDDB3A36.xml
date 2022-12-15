@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="14ACE1A8-1DA6-19DD-27A3-5739EDDB3A36" containerWithKeyObject="D65DADA1-A663-FDA1-2BBB-2F157C17551D" localFKIndex="41EEC13E-B449-1DC3-38AC-55BC766CDD8F" name="T_CARTEIRA_T_TRANSAÇÕES_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>3987E6A9-E6F0-766E-A6FA-FE4755DC23A3</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<referredTableLongName>T_TRANSAÇÕES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1FD9D1C6-E05F-C4DC-4CD2-BF56CBB9B33B</referredTableID>
+<keyObject>4518AA15-4A11-1B7E-7D68-8D9F034D7B41</keyObject>
+<referredKeyID>4518AA15-4A11-1B7E-7D68-8D9F034D7B41</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nm_transações</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

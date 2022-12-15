@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="cadastrarv6" directorySegmentName="seg_0" id="8873D8F6-DF0E-DFD3-C995-4B5FE8F8DCF1">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:54:44 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<sourcePk>2B58143F-57AE-C4D8-45E3-998D97428A65</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CBDF69F9-852B-7591-3575-FD41720B6269</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A611EA6-7CE6-EA26-496C-6BAB25DF2E44</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

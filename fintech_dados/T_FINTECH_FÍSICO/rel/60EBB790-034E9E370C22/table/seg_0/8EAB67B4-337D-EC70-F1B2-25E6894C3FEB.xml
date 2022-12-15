@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EAB67B4-337D-EC70-F1B2-25E6894C3FEB" name="T_INVESTIMENTOS">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>75FA95A1-8AAA-87B5-632D-2273305CCD76</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_iinvestimentos" id="7B7D2F18-A8CB-F28A-D7C2-AEFFFDE4D17A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>691225E5-35E1-1E9C-A6B7-EDEE302BAC9A</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_investimento" id="FE57528C-D347-9F48-6F57-9FD38361DF17">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>45005E33-3518-D052-5110-A6F92E27E06A</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_investimento" id="1BFF3AC9-37C9-1976-EBF8-3E740E3EF6CA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>447B5732-2D19-014A-8156-A711248A7387</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="st_status" id="E9CA4212-FB43-7E5A-97EC-CDA9D916E838">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>0651F429-F5A1-80C0-44A8-6DE2137D181B</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_beneficios" id="4BCA86AC-3B88-D89F-C9E3-3B13740E3F3B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>A3B1C116-AF4F-828D-6C4C-8EE09E3E603A</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_rendimento" id="9DD2AB3C-0466-C0E3-8FBC-27600424896B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>5153B061-2688-6706-058D-4AF3F603F30A</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54CCAE5D-BB16-BBEC-0405-74ADA70545E9" name="T_INVESTIMENTOS_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>D88BFF69-D281-B932-7195-E7C6289B3F4C</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B7D2F18-A8CB-F28A-D7C2-AEFFFDE4D17A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

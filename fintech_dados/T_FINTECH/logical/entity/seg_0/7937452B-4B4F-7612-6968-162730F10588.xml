@@ -1,0 +1,189 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7937452B-4B4F-7612-6968-162730F10588" name="T_USUÁRIO">
+<createdBy>user</createdBy>
+<createdTime>2022-11-10 23:07:45 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nm_usuário" id="FA6124E8-BF85-F696-1174-82556975EFD5">
+<createdBy>user</createdBy>
+<createdTime>2022-11-10 23:16:45 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="0054AD38-732B-535E-F9C2-FAF6EEF160B9">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:05:08 UTC</createdTime>
+<generatorID>8D58985B-2A9F-3827-05C9-F02E1C9A5BA2</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>03962019-5D8D-6F3E-EF72-BB551DC7A28D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereço" id="A801C6AA-E927-A710-3955-2382F4A9ADDE">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:47:45 UTC</createdTime>
+<generatorID>FACAD111-ADC2-B0FA-B5E3-AFBE27EF8A84</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>013DF5B5-8B81-6722-CEB0-C2702F0B68B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="B07F8039-A6FB-B015-8A20-8CFA941136B7">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:49:24 UTC</createdTime>
+<generatorID>902CF51C-02BE-7C66-3671-0A9D0739017B</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>C9CBBF17-1226-8084-5DBD-D787BE9D4110</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="F9B13D18-D93F-1ED9-90E3-DAD3856073D3">
+<createdBy>user</createdBy>
+<createdTime>2022-11-10 23:13:58 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_senha" id="5E248CF3-05CC-A44F-BA73-3065FD8AF943">
+<createdBy>user</createdBy>
+<createdTime>2022-11-10 23:23:05 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_nascimento" id="A217439D-3828-334A-5EF8-5A942EBABF66">
+<createdBy>user</createdBy>
+<createdTime>2022-11-10 23:22:34 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_nome" id="159098B3-AD56-BCB2-01A1-B253FF805D2A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:13:11 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_sobrenome" id="53566827-727F-0DF3-8908-56FEC51DCC50">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:13:29 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_apelido" id="BADF387C-191E-59C0-5E25-751D304B9BB0">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:52:17 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_CPF" id="675DF591-0E88-6F43-10F0-EC4D7F97EEFA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:25:17 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="56722573-8D77-ECC8-32F0-63033251E094" name="T_USUÁRIO PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-10 23:59:54 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA6124E8-BF85-F696-1174-82556975EFD5</attributeRef>
+<attributeRef>0054AD38-732B-535E-F9C2-FAF6EEF160B9</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

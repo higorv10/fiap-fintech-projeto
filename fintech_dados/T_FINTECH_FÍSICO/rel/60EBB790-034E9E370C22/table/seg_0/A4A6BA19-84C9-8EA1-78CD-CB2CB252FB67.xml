@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A4A6BA19-84C9-8EA1-78CD-CB2CB252FB67" name="T_EMAIL">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>A7C68F39-43BF-AEF5-F822-248A581E3E40</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_email" id="FE3EAAAC-41B2-12ED-1088-663A5369C328">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>03962019-5D8D-6F3E-EF72-BB551DC7A28D</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_senha" id="4B9EC9C5-55CD-5515-DAF7-A99C4366C74B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>0DEAA303-A74F-D6CB-614B-35A0EF6CAE67</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_conta" id="0E334FE2-F621-1999-77F5-EA5560302B85">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>CECB4B34-4E26-1985-BCE4-1C272F0C01BB</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9DDAC6F6-D5FD-529E-9C2F-F613A820212E" name="T_EMAIL_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>8C5EB82A-95D3-41DF-A5AB-FE30214FDB31</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FE3EAAAC-41B2-12ED-1088-663A5369C328"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

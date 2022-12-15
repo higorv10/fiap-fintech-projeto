@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C1190D31-4B86-86B0-DBD0-34065A53772D" containerWithKeyObject="BA224610-86C4-CB5E-AE2F-5700C49C5A79" localFKIndex="D6E9DC31-C088-6F32-2D75-C2B8F47F20DB" name="T_CONTA_T_TELEFONE_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>5E64925A-5936-43F6-C567-C883F91B82EA</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<referredTableLongName>T_TELEFONE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C6B96D7D-A1FE-4123-7FA9-C886653046D3</referredTableID>
+<keyObject>82D28994-F365-39A8-FF89-062A8F1991BF</keyObject>
+<referredKeyID>82D28994-F365-39A8-FF89-062A8F1991BF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>nr_telefone</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

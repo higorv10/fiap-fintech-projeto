@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="adicionar" directorySegmentName="seg_0" id="360525A8-535D-F8A9-A5C2-301F8ADE2B91">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:26:03 UTC</createdTime>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<sourcePk>F830E2AC-956A-A909-5CDD-A647E9B36576</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76CC169D-F038-9974-FEDA-42738511CF5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>42AC80D7-B4E9-EF9E-D1DC-E24DDFF537D6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

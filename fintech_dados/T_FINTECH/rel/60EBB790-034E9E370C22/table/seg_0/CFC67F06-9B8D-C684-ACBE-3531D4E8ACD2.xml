@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFC67F06-9B8D-C684-ACBE-3531D4E8ACD2" name="T_SALÁRIO">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>5C3AD01B-B67A-B68A-FD7A-8ADA58F7A3D7</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vl_salário" id="3D85370B-138E-0D48-5A8A-E6F7752150D4">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>6229791B-6D4A-39A8-E776-B5532DBAA2CD</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BANCO_nm_instituição_financeira" id="D33407A3-98A7-C8A3-8841-31B3DD05D1AE">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>7E77A419-351E-5B2F-C6B5-B33E27483CC9</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6289CE49-C207-C8E9-A82E-88B7BB0AACC6" referredColumn="957E8B31-8B06-1A85-BAB3-68EF6ED6A96D"/>
+</associations>
+</Column>
+<Column name="nm_empresa" id="688AED48-1203-2997-EB95-A589FC925734">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>BA26381B-CD6F-7D28-184B-B02E2ECE7532</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_pagamento" id="3C3967AB-940A-E570-6FD2-576BB55338F0">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>22972C2C-10E8-2359-20FE-E21F15C97FCA</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5203A4BA-AF75-F794-510E-C808273DFA91" name="T_SALÁRIO_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>DFB2851F-40C2-177B-5654-2508F044A755</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D85370B-138E-0D48-5A8A-E6F7752150D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E85BCA02-E4FA-97DF-263D-37719BC68417" name="T_SALÁRIO_T_BANCO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>EDB97F84-B56A-8DCE-2683-4A4D03D72AD6</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D33407A3-98A7-C8A3-8841-31B3DD05D1AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

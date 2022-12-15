@@ -1,0 +1,154 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B1DAE5E2-2246-DDCF-76C9-B1AB4A0C55B2" name="T_BANCO">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>76CC169D-F038-9974-FEDA-42738511CF5E</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_instituição_financeira" id="957E8B31-8B06-1A85-BAB3-68EF6ED6A96D">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>1B56073B-15F7-7CB8-001D-A01ED81BC1E0</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cartão" id="66840EFE-507A-FCF4-F6B8-A66351E65830">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>684BE72E-1903-F7D7-A309-C28C960B49B9</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<ownDataTypeParameters>,16,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_instituição_financeira" id="1AC91380-06F5-532E-D3EA-8C5F55CC7B11">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>3DA809DC-AD32-667F-EA85-3EC8A8B6121E</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo_conta" id="B2E8ED07-A0C1-67A7-87E6-917DFA3880EF">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>27749465-86FF-B3F0-055F-2CECFF0E8CD3</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_agência" id="F0CE614A-7FDA-2370-9C91-16189BF4DC1B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>F6FECEE5-022D-B2B0-6B19-3555A65088A5</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_conta" id="408141DA-BE23-56C5-9FF0-389F6DFB9059">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>EFF97EF5-9439-FB24-D380-66928EB1297B</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_saldo" id="D7A1A48F-5186-A5FD-3717-102832545F72">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>3FA1CAF6-32C2-6657-71EA-A0243AF433FC</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_empresa_cartão" id="BF27118B-CB5F-C57B-1EAF-15FAEC9C90A7">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>16BCEC1D-CFE6-F1EB-07ED-167244C3F322</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_CARTÃO_nm_empresa_cartão" id="F1E29D54-F7DA-0D98-3A0E-FE1F824EA48E">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:15:36 UTC</createdTime>
+<generatorID>01307589-1ECA-D09E-8F86-8F1AC7DC1491</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F58DBC3A-D0AA-091D-E819-47CC2EAD40E8" referredColumn="299A8034-DC26-2DFD-BAFD-3751BD2A4EF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="940C764C-AD1B-DE8C-78AF-68D95D44ED72" name="T_BANCO_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>F830E2AC-956A-A909-5CDD-A647E9B36576</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="957E8B31-8B06-1A85-BAB3-68EF6ED6A96D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6FFFE639-29B3-8E31-F4F7-8ADA41ED9FCD" name="T_BANCO_T_CARTÃO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:15:36 UTC</createdTime>
+<generatorID>C707FFA0-09C8-AF8A-ECAC-D16474F62DAB</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F1E29D54-F7DA-0D98-3A0E-FE1F824EA48E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

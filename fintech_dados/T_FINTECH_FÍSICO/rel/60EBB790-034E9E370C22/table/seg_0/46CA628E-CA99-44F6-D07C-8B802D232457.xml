@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="46CA628E-CA99-44F6-D07C-8B802D232457" name="T_CARTÃO">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>576188F1-0712-413D-29C9-286B259D9088</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_empresa_cartão" id="299A8034-DC26-2DFD-BAFD-3751BD2A4EF1">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>AB7BB713-3E3A-8ACB-660A-73E73906052C</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nr_cartão" id="EA5627D7-4C78-8F3C-E571-14ABCAFD6C0A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>0D61A499-23C2-9241-4E73-5DD46E6CBD9E</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>14</dataTypePrecision>
+<ownDataTypeParameters>,14,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_tipo" id="E0E7F546-D2DB-031D-B93D-09FE71CCF028">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>252AB865-9F97-17FB-2BC7-99719C5A6AFE</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="33A429CE-4B1E-42A8-7361-D99E8770871B" name="T_CARTÃO_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:15:36 UTC</createdTime>
+<generatorID>98E3D484-67B8-DC80-DC1D-688A0FD65455</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="299A8034-DC26-2DFD-BAFD-3751BD2A4EF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

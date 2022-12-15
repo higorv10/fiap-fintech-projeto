@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="armazenar" directorySegmentName="seg_0" id="EC89939E-D78F-C9BB-7594-64C3A9C99A59">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 01:35:47 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<sourcePk>F830E2AC-956A-A909-5CDD-A647E9B36576</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76CC169D-F038-9974-FEDA-42738511CF5E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>283F6AFE-BF05-3EE6-1E67-98052AA28FC0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

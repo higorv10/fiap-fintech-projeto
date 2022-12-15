@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1035F9AB-18E8-35F9-B02B-8C0F85819D37" name="T_FINTECH_INTERFACE">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>3C272695-D8FD-1073-2C76-34DA2BFEE6A5</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_CONTA_T_LOGIN_T_USUÁRIO_nm_usuário" id="E3D1868E-6DD5-144B-C6BE-4C8E44DB9AB3">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>BF29D3BB-0EFB-E62B-CE31-02B81C96CE33</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3DD8EC-DFC1-D715-A501-41C9A1460776" referredColumn="4D8A2D20-4B54-DEF1-DAD8-591203140B8A"/>
+</associations>
+</Column>
+<Column name="T_CARTEIRA_vl_saldo" id="58EE27D3-DB1E-775E-08FB-4A9D40A4D2C4">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>A7F380BC-AC59-6BFC-2B3C-7B5029B7AFA4</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99A6288D-41D2-F714-AA5F-6C691C20127E" referredColumn="320EE526-3EE4-B1E7-7A04-BFAD288A6FB8"/>
+</associations>
+</Column>
+<Column name="T_CARTEIRA_T_BANCO_nm_instituição_financeira" id="258D0FD6-6EA7-A175-EA58-586087F85C04">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>8CD4EA9C-FD8E-EBB8-65E2-D0AB08D20804</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99A6288D-41D2-F714-AA5F-6C691C20127E" referredColumn="6EBDC7DA-D877-B446-DAB2-AA7F623F75CC"/>
+</associations>
+</Column>
+<Column name="T_CARTEIRA_T_INVESTIMENTOS_nm_iinvestimentos" id="0CC6BE31-B8BD-494E-A0AC-CEADEDE32EA8">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>E9153D04-A944-05ED-FCCF-7259506F588E</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99A6288D-41D2-F714-AA5F-6C691C20127E" referredColumn="5350B8E6-A3C2-0152-4BF5-921DCDC86BFF"/>
+</associations>
+</Column>
+<Column name="T_CARTEIRA_T_SALÁRIO_vl_salário" id="E9A6A793-C4D9-F358-9B97-5BD5B7E64B72">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>5E5BD64E-E650-924B-58E6-2DCB37D4C5D4</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99A6288D-41D2-F714-AA5F-6C691C20127E" referredColumn="4A7FF857-2E53-1E0C-4905-EBCB681513D0"/>
+</associations>
+</Column>
+<Column name="T_CARTEIRA_T_TRANSAÇÕES_nm_transações" id="678BB9B6-3F36-16FF-314D-29C8C30852CD">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>E5A63725-12AC-DE16-B429-B93E47F46A57</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="99A6288D-41D2-F714-AA5F-6C691C20127E" referredColumn="A33ABD92-D902-FD88-103B-C72EAA2D7DBB"/>
+</associations>
+</Column>
+<Column name="T_CONTA_ds_dados_conta" id="7CB80356-34B6-9402-6161-616BEE233758">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>71650579-346C-3A42-8D70-ABD8C6D0801B</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FE3DD8EC-DFC1-D715-A501-41C9A1460776" referredColumn="958AA36F-2FAE-41C7-0C7B-441681D877FB"/>
+</associations>
+</Column>
+<Column name="T_CARTÃO_nm_empresa_cartão" id="43C77322-F2B8-5592-F364-160AB1AD7096">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:15:36 UTC</createdTime>
+<generatorID>0A265ACD-F5CA-6416-1FDB-33B16738F6B9</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="06642CAB-8574-5717-F4FF-0BF1C2E300B3" referredColumn="299A8034-DC26-2DFD-BAFD-3751BD2A4EF1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AAC398E4-E89A-83F4-D8A2-AAB58131242B" name="T_FINTECH_INTERFACE_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>566DC987-23CE-1A90-D0CC-C5E920BE8FCE</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E3D1868E-6DD5-144B-C6BE-4C8E44DB9AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DDCE393-F1A2-5449-34C7-3C94D8218710" name="T_FINTECH_INTERFACE_T_CONTA_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>6623E16B-FF15-F0E3-24B7-49E2F761C2BB</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB80356-34B6-9402-6161-616BEE233758"/>
+<colUsage columnID="E3D1868E-6DD5-144B-C6BE-4C8E44DB9AB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFFC2E2C-FFEA-2AE0-B4C1-D14F694864BB" name="T_FINTECH_INTERFACE_T_CARTEIRA_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>B426AED1-43AE-CBB8-58D1-9710A96F30E6</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58EE27D3-DB1E-775E-08FB-4A9D40A4D2C4"/>
+<colUsage columnID="258D0FD6-6EA7-A175-EA58-586087F85C04"/>
+<colUsage columnID="0CC6BE31-B8BD-494E-A0AC-CEADEDE32EA8"/>
+<colUsage columnID="E9A6A793-C4D9-F358-9B97-5BD5B7E64B72"/>
+<colUsage columnID="678BB9B6-3F36-16FF-314D-29C8C30852CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="22E32303-01AF-ECAA-D023-1E3A76D6F3BF" name="T_FINTECH_INTERFACE_T_CARTÃO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:15:36 UTC</createdTime>
+<generatorID>A18020F2-327F-D663-98BA-0B35FAEE2564</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="43C77322-F2B8-5592-F364-160AB1AD7096"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

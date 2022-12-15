@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A6BE832D-F218-5C60-85A1-2BCA0860399C" containerWithKeyObject="D65DADA1-A663-FDA1-2BBB-2F157C17551D" localFKIndex="687CB7A0-3280-3A97-0384-37CE8D6D0CD8" name="T_CARTEIRA_T_SALÁRIO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>BC6D851E-9A7E-44D2-486B-37DC78C2CC46</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<referredTableLongName>T_SALÁRIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CFC67F06-9B8D-C684-ACBE-3531D4E8ACD2</referredTableID>
+<keyObject>5203A4BA-AF75-F794-510E-C808273DFA91</keyObject>
+<referredKeyID>5203A4BA-AF75-F794-510E-C808273DFA91</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>vl_salário</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

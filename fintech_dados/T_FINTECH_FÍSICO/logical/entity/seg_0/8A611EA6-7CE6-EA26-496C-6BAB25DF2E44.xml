@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8A611EA6-7CE6-EA26-496C-6BAB25DF2E44" name="T_CONTA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:50:46 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ds_dados_conta" id="86F0BEC1-DB67-F5CD-F5F0-7F81DE228985">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:51:01 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_usuário" id="CDC7182B-F0E0-B0A8-DE53-A70116E06A2D">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:53:02 UTC</createdTime>
+<generatorID>BD6FCF06-7393-2C56-66CC-6F22E1065F17</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>D2DF20C9-72FC-4C3F-AC73-3F4D404C49E6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_email" id="BF6DD060-E5E3-1468-6EC6-2BB2C3A0F69A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:53:02 UTC</createdTime>
+<generatorID>BD6FCF06-7393-2C56-66CC-6F22E1065F17</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>44B86DFE-93A3-8FD7-CBCE-175FA331E11B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_senha" id="E5DD1746-6C15-8BF9-3350-29A099CAA698">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:53:02 UTC</createdTime>
+<generatorID>BD6FCF06-7393-2C56-66CC-6F22E1065F17</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>AD62690B-7A20-C349-03C5-B6F628B75B1E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_telefone" id="0DD3A5F2-89E0-4F31-94C2-2722C377D169">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:53:10 UTC</createdTime>
+<generatorID>5E64925A-5936-43F6-C567-C883F91B82EA</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>C9CBBF17-1226-8084-5DBD-D787BE9D4110</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_endereço" id="23F831C3-A341-3090-0502-4E010EBC72FE">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:54:44 UTC</createdTime>
+<generatorID>8873D8F6-DF0E-DFD3-C995-4B5FE8F8DCF1</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<referedAttribute>013DF5B5-8B81-6722-CEB0-C2702F0B68B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_criação" id="42CB01BB-6C38-3C7A-2527-1B8F6AC7BF1B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:51:31 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8700C020-E049-47AA-1B66-687F2058A07A" name="T_CONTA PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 02:52:28 UTC</createdTime>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="60EBB790-D52A-6BC4-7FA1-034E9E370C22" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>86F0BEC1-DB67-F5CD-F5F0-7F81DE228985</attributeRef>
+<attributeRef>CDC7182B-F0E0-B0A8-DE53-A70116E06A2D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

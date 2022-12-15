@@ -1,0 +1,165 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BA224610-86C4-CB5E-AE2F-5700C49C5A79" name="T_CONTA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>8A611EA6-7CE6-EA26-496C-6BAB25DF2E44</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ds_dados_conta" id="958AA36F-2FAE-41C7-0C7B-441681D877FB">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>86F0BEC1-DB67-F5CD-F5F0-7F81DE228985</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LOGIN_T_USUÁRIO_nm_usuário" id="4D8A2D20-4B54-DEF1-DAD8-591203140B8A">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>CDC7182B-F0E0-B0A8-DE53-A70116E06A2D</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="419BB0D3-7DEB-4824-7127-D5A692D4E2EC" referredColumn="BFF9B847-AA46-6000-8C1A-84AFF685211E"/>
+</associations>
+</Column>
+<Column name="T_LOGIN_T_USUÁRIO_T_EMAIL_nm_email" id="A3E98140-8B7A-C6F7-6E1F-82817A7E1B3D">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>BF6DD060-E5E3-1468-6EC6-2BB2C3A0F69A</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="419BB0D3-7DEB-4824-7127-D5A692D4E2EC" referredColumn="9FE5F0F6-4607-AF1D-EF4E-8CE7CC57BF32"/>
+</associations>
+</Column>
+<Column name="T_LOGIN_cd_senha" id="1C5140BA-6F60-F044-BB75-14B431C33269">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>E5DD1746-6C15-8BF9-3350-29A099CAA698</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="419BB0D3-7DEB-4824-7127-D5A692D4E2EC" referredColumn="85472536-E3C3-D984-B962-F19015A823EC"/>
+</associations>
+</Column>
+<Column name="T_TELEFONE_nr_telefone" id="73F88560-5842-1705-ADCF-6A2ADABBE5B5">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>0DD3A5F2-89E0-4F31-94C2-2722C377D169</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C1190D31-4B86-86B0-DBD0-34065A53772D" referredColumn="8B67B3E3-BE39-8B12-DD27-7DF59A17E508"/>
+</associations>
+</Column>
+<Column name="T_ENDEREÇO_ds_endereço" id="EC127944-5B35-0C75-5BAC-AB85DC4B1F3B">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>23F831C3-A341-3090-0502-4E010EBC72FE</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8455A9D2-185D-C5F0-B23B-3725FE889F9D" referredColumn="4BC1D17A-0812-291A-B870-27459AFA4ECC"/>
+</associations>
+</Column>
+<Column name="dt_criação" id="C71A3144-E996-3A3C-2F0E-F4F95EE15B19">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>42CB01BB-6C38-3C7A-2527-1B8F6AC7BF1B</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8CDE23E-B332-6C39-78B1-1B9F38BCB867" name="T_CONTA_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>8700C020-E049-47AA-1B66-687F2058A07A</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="958AA36F-2FAE-41C7-0C7B-441681D877FB"/>
+<colUsage columnID="4D8A2D20-4B54-DEF1-DAD8-591203140B8A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9EF43A0-1F6C-C799-8F10-367E03BAF013" name="T_CONTA_T_LOGIN_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>BD6FCF06-7393-2C56-66CC-6F22E1065F17</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3E98140-8B7A-C6F7-6E1F-82817A7E1B3D"/>
+<colUsage columnID="4D8A2D20-4B54-DEF1-DAD8-591203140B8A"/>
+<colUsage columnID="1C5140BA-6F60-F044-BB75-14B431C33269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6E9DC31-C088-6F32-2D75-C2B8F47F20DB" name="T_CONTA_T_TELEFONE_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>5E64925A-5936-43F6-C567-C883F91B82EA</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="73F88560-5842-1705-ADCF-6A2ADABBE5B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AABB3C17-F45C-9277-0A2F-FEF4F57A5499" name="T_CONTA_T_ENDEREÇO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>8873D8F6-DF0E-DFD3-C995-4B5FE8F8DCF1</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC127944-5B35-0C75-5BAC-AB85DC4B1F3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

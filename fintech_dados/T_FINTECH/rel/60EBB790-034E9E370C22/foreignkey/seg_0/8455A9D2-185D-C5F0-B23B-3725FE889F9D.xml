@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8455A9D2-185D-C5F0-B23B-3725FE889F9D" containerWithKeyObject="BA224610-86C4-CB5E-AE2F-5700C49C5A79" localFKIndex="AABB3C17-F45C-9277-0A2F-FEF4F57A5499" name="T_CONTA_T_ENDEREÇO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>8873D8F6-DF0E-DFD3-C995-4B5FE8F8DCF1</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<referredTableLongName>T_ENDEREÇO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3F13875F-BC3C-3A8A-60CD-9405EE65503F</referredTableID>
+<keyObject>A90D044F-9680-1898-F34D-0563F0BB3C47</keyObject>
+<referredKeyID>A90D044F-9680-1898-F34D-0563F0BB3C47</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ds_endereço</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="09FDEA64-0829-8A1D-1950-4787D3FB0591" name="T_LOGIN">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>B7070641-70F9-F4D2-E11E-C864A70097A8</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="T_USUÁRIO_T_EMAIL_nm_email" id="9FE5F0F6-4607-AF1D-EF4E-8CE7CC57BF32">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>44B86DFE-93A3-8FD7-CBCE-175FA331E11B</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ED810EA-BF5E-1367-03EC-874B3AFC9FB9" referredColumn="CC689BE7-0A9F-7CBE-805B-563DADA6A69A"/>
+</associations>
+</Column>
+<Column name="T_USUÁRIO_nm_usuário" id="BFF9B847-AA46-6000-8C1A-84AFF685211E">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>D2DF20C9-72FC-4C3F-AC73-3F4D404C49E6</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5ED810EA-BF5E-1367-03EC-874B3AFC9FB9" referredColumn="5015F389-070D-A51F-A225-27BDE92E1335"/>
+</associations>
+</Column>
+<Column name="cd_senha" id="85472536-E3C3-D984-B962-F19015A823EC">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>AD62690B-7A20-C349-03C5-B6F628B75B1E</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ob_termos_privacidade" id="92308386-9709-BD37-3332-B63FEFBC09B2">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>9924EA93-5F2B-B591-B0CA-5D5F0E11DEC1</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ob_políticas_segurança" id="1B253002-0AD6-E146-280C-0F7298EFE4BA">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>20CCE8A5-E282-63FD-1295-A8721BDCDE88</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B53B3ECB-2649-7F02-9E4D-C7F18857801F" name="T_LOGIN_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>A1374140-20E1-867A-5EA7-BE666EC13C82</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FE5F0F6-4607-AF1D-EF4E-8CE7CC57BF32"/>
+<colUsage columnID="BFF9B847-AA46-6000-8C1A-84AFF685211E"/>
+<colUsage columnID="85472536-E3C3-D984-B962-F19015A823EC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23DA1B33-E2B7-C75D-D54B-8024F196496E" name="T_LOGIN_T_USUÁRIO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>1BD0C64B-A00B-0667-1657-386B572F9925</generatorID>
+<ownerDesignName>T_FINTECH_FÍSICO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BFF9B847-AA46-6000-8C1A-84AFF685211E"/>
+<colUsage columnID="9FE5F0F6-4607-AF1D-EF4E-8CE7CC57BF32"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

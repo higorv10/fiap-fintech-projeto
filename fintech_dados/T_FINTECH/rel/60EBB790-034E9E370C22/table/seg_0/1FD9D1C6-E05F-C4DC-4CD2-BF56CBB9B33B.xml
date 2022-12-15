@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FD9D1C6-E05F-C4DC-4CD2-BF56CBB9B33B" name="T_TRANSAÇÕES">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>283F6AFE-BF05-3EE6-1E67-98052AA28FC0</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nm_transações" id="E86AF07B-26A5-98EE-87A3-765247A6AE45">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>7F34D3A0-5A83-6680-79E4-BC0412900F71</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_BANCO_nm_instituição_financeira" id="E73163DB-FB8C-9C81-4ADB-003516F283A2">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>CB56B52D-02D9-8342-7570-F887DD710418</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7F0839C1-B276-4CE7-82C2-4C670C933E22" referredColumn="957E8B31-8B06-1A85-BAB3-68EF6ED6A96D"/>
+</associations>
+</Column>
+<Column name="id_transação" id="0FBA1D29-B984-34D3-72FF-2280EDB98C31">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>6A136EAC-9249-864C-4760-52FD677801DF</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vl_saldo_movido" id="C870212A-2B01-F5C8-5E02-16F3CA3B9868">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>2D30E698-D2A2-013B-48BE-7B3F3005A4D6</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_transação" id="C45E2DEA-6AF7-710E-12E9-1420A07CE65E">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>1AE1A1AB-AF90-5533-373C-41C17CFC5A3B</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_poduto" id="AA70D6AA-0A2A-EECC-07EF-4B60406DC166">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>302058B4-E994-F68F-B390-1C409D0CACCE</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4518AA15-4A11-1B7E-7D68-8D9F034D7B41" name="T_TRANSAÇÕES_PK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>0B6AC3BC-90FC-F0C7-873B-8EFB772B80E7</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E86AF07B-26A5-98EE-87A3-765247A6AE45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7A13966-9886-40B0-7178-0DF9A6FD90C4" name="T_TRANSAÇÕES_T_BANCO_FK">
+<createdBy>user</createdBy>
+<createdTime>2022-11-11 03:13:12 UTC</createdTime>
+<generatorID>EC89939E-D78F-C9BB-7594-64C3A9C99A59</generatorID>
+<ownerDesignName>T_FINTECH</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E73163DB-FB8C-9C81-4ADB-003516F283A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
